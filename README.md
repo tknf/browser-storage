@@ -19,7 +19,7 @@ yarn add @tknf/browser-storage
 
 in Browser:
 ```html
-<script src="https://unpkg.com/@tknf/browser-storage@0.1.0/umd/browser-storage.min.js"></script>
+<script src="https://unpkg.com/@tknf/browser-storage@0.1.1/umd/browser-storage.min.js"></script>
 ```
 
 

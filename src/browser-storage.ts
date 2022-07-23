@@ -1,3 +1,9 @@
 import { createBrowserStorage } from "./core";
 
-export default createBrowserStorage;
+declare global {
+	interface Window {
+		createBrowserStorage: typeof createBrowserStorage;
+	}
+}
+
+window.createBrowserStorage = createBrowserStorage;

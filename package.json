@@ -1,6 +1,6 @@
 {
 	"name": "@tknf/browser-storage",
-	"version": "0.1.0",
+	"version": "0.1.1",
 	"description": "Browser storage with a simple, lightweight and user-friendly interface",
 	"repository": {
 		"type": "git",

@@ -2,7 +2,14 @@
 <html>
 
 <head>
-	<script type="module" src="src/main.ts"></script>
+	<script src="https://unpkg.com/@tknf/browser-storage@0.1.0/umd/browser-storage.min.js"></script>
+	<script>
+		const storage = createBrowserStorage({
+			type: "local",
+			name: "TEST"
+		});
+
+	</script>
 </head>
 
 <body>
